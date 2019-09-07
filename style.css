@@ -1,0 +1,49 @@
+body {
+    margin;0px;
+       }
+header {
+    font-family: "Raleway", sans-serif;
+    text-align:center;
+}
+
+main {
+    display:flex;
+}
+
+@media (max-width: 1000px) {
+    main {
+         flex-direction:column;
+     }
+ }
+section {
+    width:70%;
+}
+  aside {
+      width:30%;
+  }   
+
+  .card {
+      border:0.5px  solid black;
+      box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+      margin:16px;
+        }
+    .card img {
+        width:100%;
+        height:auto;
+               }
+         
+           
+    .card-text {
+        padding:16px;
+    }
+    .card-text3 img {
+        display:flex;
+        width:15%;
+        padding: 5px;
+      
+    }
+    
+    .footer {
+        background-color: #616161;
+        padding:32px;
+    }
